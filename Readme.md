@@ -1,6 +1,8 @@
 # Direct URL Grabber for Reddit Video  
 **Extension for Google Chrome**  
 
+Get it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/reddit-video-url-grabber/plpdigadhhbhmljndnmeipfjfohhcjad), or install it manually using the instructions below.  
+
 ## Installing  
 <sup>Instructions originally found **[here](https://developer.chrome.com/extensions/getstarted)**</sup>  
 
