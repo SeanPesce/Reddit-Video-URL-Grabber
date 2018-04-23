@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Author: Sean Pesce -->
+<html>
+  <head>
+    <style>
+      button {
+        width: 100%;
+        min-width: 100px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="download_buttons" visibility="visible">
+      <div id="no_vid" style="opacity:0.0;">
+        No video
+      </div>
+      <br>
+      <div>Download video:</div>
+      <br>
+      <table>
+        <tr><button id="1080p">1080p</button></tr>
+        <tr><button id="720p">720p</button></tr>
+        <tr><button id="480p">480p</button></tr>
+        <tr><button id="360p">360p</button></tr>
+        <tr><button id="240p">240p</button></tr>
+      </table>
+    </div>
+    <br>
+    <div id="author_lbl" style="opacity:0.3;">
+      Author:<br><a id="author_website" href="https://SeanPesce.github.io">Sean Pesce</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
