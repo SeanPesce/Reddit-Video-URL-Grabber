@@ -12,7 +12,7 @@ function getVid() {
       break;
     }
   }
-  if (url.length > 0 && url.href.toString().indexOf('v.redd.it') !== -1) {
+  if (url.length > 0 && url.indexOf('v.redd.it') !== -1) {
     window.location.href = url;
   } else {
     // Using Reddit's 2018 redesign; acquire URL with alternate technique
