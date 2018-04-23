@@ -1,21 +1,20 @@
 // Author: Sean Pesce
 
-const AUTHOR_WEBSITE = 'https://SeanPesce.github.io';
+const authorWebsiteUrl = 'https://SeanPesce.github.io';
+const buttonsDiv = document.getElementById('download_buttons');
+const bt1080 = document.getElementById('1080p');
+const bt720 = document.getElementById('720p');
+const bt480 = document.getElementById('480p');
+const bt360 = document.getElementById('360p');
+const bt240 = document.getElementById('240p');
+const noVidLbl = document.getElementById('no_vid');
+const authorWebsiteLink = document.getElementById('author_website');
 
-let buttonsDiv = document.getElementById('download_buttons');
-let bt1080 = document.getElementById('1080p');
-let bt720 = document.getElementById('720p');
-let bt480 = document.getElementById('480p');
-let bt360 = document.getElementById('360p');
-let bt240 = document.getElementById('240p');
-let noVidLbl = document.getElementById('no_vid');
-let authorWebsite = document.getElementById('author_website');
-
-author_website.onclick = function(element) {
+authorWebsiteLink.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       chrome.tabs.executeScript(
           tabs[0].id,
-          {code: 'window.location.href = "' + AUTHOR_WEBSITE + '";'});
+          {code: 'window.location.href = "' + authorWebsiteUrl + '";'});
     });
   };
 

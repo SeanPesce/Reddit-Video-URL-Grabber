@@ -1,6 +1,6 @@
 {
     "name": "Reddit Video URL Grabber",
-    "version": "2018.04.22",
+    "version": "2018.04.23",
     "description": "Automatically finds direct URLs to Reddit videos",
     "author": "Sean Pesce",
     "permissions": ["activeTab", "declarativeContent", "storage"],
